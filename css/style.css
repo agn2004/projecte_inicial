@@ -1,3 +1,40 @@
 .horari{
-    background: aqua; 
+    background: whitesmoke; 
+}
+.diasetmana{
+    background: rgb(141, 253, 169); 
+}
+.hora{
+    background: hsl(236, 45%, 65%); 
+}
+.serveis{
+    color: rgb(255, 0, 212);
+    background: rgb(73, 255, 194); 
+    border-color: rgb(255, 0, 212);
+}
+.seguretat{
+    color: rgb(14, 14, 13);
+    background: rgb(6, 70, 189); 
+    border-color: slategray;
+}
+.sistemes{
+    color: snow;
+    background: rgb(219, 64, 64); 
+    border-color: black;
+}
+.aplicacions{
+    color: rgb(17, 5, 124);
+    background: rgb(121, 255, 95); 
+    border-color: rgb(6, 70, 189);
+}
+.EIE{
+    color: rgb(226, 212, 212);
+    background: rgb(79, 1, 95);
+    border-color: red; 
+}
+.pati{
+    color: gold;
+    font-style: italic;
+    background: rgb(0, 0, 0); 
+    border-color: gold;
 }
