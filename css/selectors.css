@@ -1,15 +1,19 @@
 /* dona al <body> element un color de fons de #bdc3c7*/
-
-
+body{
+    background-color: #bdc3c7;
+}
 /* fes que els <h1> siguin de color #9b59b6*/
-
-
+h1{
+    color: #9b59b6;
+}
 /* fes que els <h2> siguin de color orange */
-
-
-/* fes que els <li> siguin d'un blau hexadecimal
-
-
+h2{
+    color: orange;
+}
+/* fes que els <li> siguin d'un blau hexadecimal*/
+li{
+    color: #0c48ca;
+}
 /*canvia el color de fons de cada paràgraf a groc*/
 
 
