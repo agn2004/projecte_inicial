@@ -13,9 +13,9 @@
 }
 
 #menu ul li a{
-    color: rgb(0, 210, 247);
+    color: rgb(23, 247, 255);
     display: block;
-    padding: 10px 60px;
+    padding: 10px 80px;
     text-decoration: none;
     font-style: oblique;
 }
