@@ -22,6 +22,7 @@
 
 #menu ul li a:hover{
     background-color: rgb(255, 0, 200);
+    cursor: pointer;
 }
 .aqui{
     color: rgb(255, 0, 200);

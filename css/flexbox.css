@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.tab-container-1{
+    color: white;
+    font-style:unset;
+    display: flex;
+    width: 66%;
+    background-color:rgba(5, 255, 234, 0.993);
+    margin: 0;
+    padding: 10px 120px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tab-container-1 div{
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 191);
+    border-radius: 12px;
+    padding: 10px 0;
+}
+
+.tab-container-1 tab-1{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 tab-2{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 tab-3{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 tab-4{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 tab-5{
+    flex: 1 1 auto;
+}
+
+.tab-container-1 div:hover{
+        cursor: pointer;
+        background-color: rgb(60, 118, 151);
+}
