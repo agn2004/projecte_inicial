@@ -1,15 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(25, 37, 33);
+}
+
 #menu{
-    background-color: rgb(0, 0, 0);
+    width: 75%;
+    margin: 0 auto;
 }
 
 #menu ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: table;
+    width: 100%;
 }
 
 #menu ul li{
-    display: inline-block;
+    display: table-cell;
 }
 
 #menu ul li a{
@@ -24,6 +37,7 @@
     background-color: rgb(255, 0, 200);
     cursor: pointer;
 }
+
 .aqui{
     color: rgb(255, 0, 200);
     display: block;
@@ -31,4 +45,41 @@
     text-decoration: none;
     font-style: oblique;
     background-color: rgb(8, 2, 97);
+}
+@media screen and (max-width: 411px) {
+    .hamburguer {
+        background-color: var(--backgroud-color);
+        width: 2em;
+        height: 2em;
+        margin: 3em;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .lines {
+        background-color: white;
+        width: 100%;
+        height: 5px;
+        margin: 5px 0;
+        
+    }
+    .hide{
+        display: none;
+    }
+
+    .active{
+        display: block;
+    }
+
+    body{
+    }
+
+    nav ul{
+        display: table;
+        width: 100%;
+    }
+    
+    nav ul li{
+        display: list-item;
+    }
+
 }
