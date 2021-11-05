@@ -39,12 +39,11 @@ header{
 }
 
 .aqui{
-    color: rgb(255, 0, 200);
     display: block;
     padding: 10px 35px;
     text-decoration: none;
     font-style: oblique;
-    background-color: rgb(8, 2, 97);
+    background-color: rgb(78, 78, 78);
 }
 @media screen and (max-width: 411px) {
     .hamburguer {
@@ -68,9 +67,6 @@ header{
 
     .active{
         display: block;
-    }
-
-    body{
     }
 
     nav ul{
