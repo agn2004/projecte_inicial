@@ -20,5 +20,48 @@ linia divisora d'articles https://codepen.io/Oddgson/pen/VPrYbv
     max-width: 700px;
 }
 
+.data{
+    color: #3498db;
+    font-size: 2em; /*per fer sa data mes gran*/
+    font-weight: 600; /*per fer sa lletra mes gruixada*/
+    text-transform: uppercase; /*perque sigui en majuscules*/
+    letter-spacing: 0.2em; /*per donar un poc d'espai*/
+}
 
+.article h2{
+    font-size: 2.5em; 
+    font-weight: 700;
+}
 
+.resum{
+    border-left: 3px solid #bdc3c7;
+    padding-left: 5px; /*per donar espai entre sa barra i es text*/
+}
+p{
+    margin-bottom: 12px; /*aixi es paragrafs queden mes espaiats*/
+    font-size: 1.2em; /*aixi es paragraf es veu un poc mes gran*/
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 90px;
+	height: 1px;
+}
+
+.wrapper
+{
+	padding-bottom: 90px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
