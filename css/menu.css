@@ -42,7 +42,7 @@ nav ul li a:hover{
     background-color: rgb(78, 78, 78);
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 480px) {
     
     .hamburguer {
         background-color: var(--backgroud-color);
