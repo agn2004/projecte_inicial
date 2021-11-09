@@ -1,0 +1,84 @@
+root{
+    --main-color: #fec5bb;
+    --hover-color: rgb(155, 43, 145);
+    --active-color: rgb(81, 81, 150);
+    --font-color: rgb(18, 90, 18);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: aqua;
+    width: 100%;
+}
+
+nav{
+    width: 75%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: table;
+    /*aquest width es per dir quin espai volem que empri cada bloc on hi ha cada link des menu*/
+    width: 100%;
+}
+
+nav ul li{
+    display: table-cell;
+    width: 25%;
+    background-color: chartreuse;
+    height: 5vh;
+}
+
+nav ul li a{
+    display: block;
+    background-color: darkblue;
+    text-align: center;
+    height: 100%;
+}
+/*per fer que quan pasam es ratoli per damunt es canvi el color*/
+#menu ul li a:hover{
+    background-color: rgb(255, 0, 200);
+    cursor: pointer;
+    height: 100%;
+}
+/*per indicar a quina página estam*/
+.active{
+    background-color: silver;
+}
+/*per canviar els estils segons la pantalla*/
+@media screen and (max-width: 411px){
+    body{
+
+    }
+    .hamburguer {
+        background-color: yellow;
+        width: 2em;
+        height: 2em;
+        margin: 3em;
+        z-index: 1;
+        cursor: pointer;
+
+    }
+    .lines{
+        background-color: red;
+        width: 100%;
+        height: 5px;
+        margin: 5px 0;
+    }
+    }
+    .hide{
+        display: none;
+    }
+    nav ul li{
+        display: list-item;
+    }
+    
